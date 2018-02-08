@@ -1,0 +1,121 @@
+/*--------------------------- GENERAL ------------------------------------*/
+
+body {
+  font-size: 62,5%;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+a, p {
+  font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.vertical-align {
+  align-items: center;
+}
+
+nav {
+ width: 100%;
+}
+
+/* --------------------------------- NAV ------------------------------------*/
+
+.nav1 {
+  background-color: black;
+  height: 32px;
+  justify-content: space-between;
+}
+
+.nav2 {
+  height: 48px;
+}.nav-yellow-strap {
+  background-color: rgb(255, 221, 51);
+  height: 30px;
+}
+
+.nav-yellow-strap a {
+  font-family: 'Montserrat', "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.8125em;
+  color: black;
+}
+
+.nav-list li a {
+  color: #999;
+  font-size: 0.8125em;
+}
+
+.nav1-left-list li {
+  margin-left: 0.75em;
+}
+
+.nav1-right-list li {
+  margin-right: 0.75em;
+}
+
+.robot-font li a {
+  font-family: 'Dhurjati', sans-serif;
+  padding: 18px 12px 0 12px;
+  font-size: 1.2em;
+}
+
+/*--------------------------------- HEADER---------------------------- */
+
+header {
+  margin: 0.6%;
+}
+
+.main-header-container {
+  background: url("img/primary-header.jpg") no-repeat;
+  background-size: cover;
+  width: 65%;
+}
+
+.second-header-container {
+  background: url("img/second-header.jpg") no-repeat;
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+
+.third-header-container {
+  background: url("img/third-header.jpg") no-repeat;
+  margin-left: 2%;
+}
+
+.header-right {
+  flex-direction: column;
+  width: 35%;
+}
+
+.red-linear-gradient {
+  background: linear-gradient(to right bottom, #f00000e0, black);
+  opacity: 0.7;
+  width: 100%;
+}
+
+.black-linear-gradient {
+  background: linear-gradient(to right bottom, white, black);
+  opacity: 0.7;
+}
+
+ .flex-grow-2 {
+   flex-grow: 2;
+ }
