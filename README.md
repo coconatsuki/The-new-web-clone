@@ -9,4 +9,4 @@ And the origin website here:
 https://thenextweb.com/
 
 This project is really good to learn how to make a website responsive
-(using 'em' and percentage instead of fixed pixels, and media queries).
+(using 'em' and percentage instead of fixed pixels, flexbox and media queries).
