@@ -45,12 +45,13 @@
       </ul>
     </div>
     <div class="nav2-right">
-      <ul class="nav-list flex">
-        <li><a href="#"><i id="icon-1"></i></a></li>
-        <li><a href="#"><i id="icon-2"></i></a></li>
-        <li><a href="#"><i id="icon-3"></i></a></li>
-        <li><a href="#"><i id="icon-4"></i></a></li>
-        <li><a href="#"><i id="icon-4"></i></a></li>
+      <ul class="nav-list nav2-list flex">
+        <li><a href="#"><i id="icon-1" class="nav-icon"></i></a></li>
+        <li><a href="#"><i id="icon-2" class="nav-icon"></i></a></li>
+        <li><a href="#"><i id="icon-3" class="nav-icon"></i></a></li>
+        <li><a href="#"><i id="icon-4" class="nav-icon"></i></a></li>
+        <li class="remain-li"><a href="#"><i id="icon-5" class="nav-icon"></i></a></li>
+        <li class="hidden-li"><a href="#"><i id="icon-hamburger" class="nav-icon"></i></a></li>
       </ul>
     </div>
   </nav>
@@ -61,13 +62,12 @@
   <header class="flex">
     <article class="main-header-container flex">
       <div class="linear-gradient">
-        <div class="cover-gradient"></div>
         <div class="header-text-container white-text">
           <div id="logo"><img alt="The Next Web" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg"></div>
           <p class="date">Friday - February  2, 2018</p>
           <h4 class="subject">TECH</h4>
-          <a href="#"><h2 class="article-title">Lasers reveal massive Mayan city burried for centuries</h2></a>
-          <p class="byline light-grey">
+          <a href="#"><h2 class=" article-title big-article-title">Lasers reveal massive Mayan city burried for centuries</h2></a>
+          <p class="byline light-grey flex header-byline">
             <span>By Rachel Kaser</span>
             <i id="clock-icon"></i>
             <time>16 minutes ago</time>
@@ -79,11 +79,11 @@
     </article>
     <div class="header-right flex col">
       <article class="second-header-container flex flex-grow-2">
-        <div class="linear-gradient">
-          <div class="header-text-container white-text">
+        <div class="linear-gradient linear-gradient-top">
+          <div class="header-text-container white-text flex col flex-end">
             <h4 class="subject">TECH</h4>
             <a href="#"><h2 class="article-title">Here’s why Alexa won’t light up during Amazon’s Super Bowl ad</h2></a>
-            <p class="byline light-grey">
+            <p class="byline light-grey flex header-byline">
               <span>By Brad Stone</span>
               <i id="clock-icon"></i>
               <time>54 minutes ago</time>
@@ -93,11 +93,11 @@
           </div>
         </article>
         <article class="third-header-container flex flex-grow-2">
-          <div class="linear-gradient">
-            <div class="header-text-container white-text">
+          <div class="linear-gradient linear-gradient-top">
+            <div class="header-text-container white-text flex col flex-end">
               <h4 class="subject">TECH</h4>
               <a href="#"><h2 class="article-title">TNW’s Big Spam: Here’s a picture of Matthew McConaughey eating lobster on a hoverboard</h2></a>
-              <p class="byline light-grey">
+              <p class="byline light-grey flex header-byline">
                 <span>By Georgina Ustik</span>
                 <i id="clock-icon"></i>
                 <time>2 hours ago</time>
@@ -119,7 +119,7 @@
                     <figcaption>Dating app shows singles care less about Valentine's Day than ever </figcaption>
                   </figure>
                 </a>
-                <p class="byline grey">Rachel Kaser - 33 minutes ago</p>
+                <p class="byline grey latest-byline">Rachel Kaser - 33 minutes ago</p>
               </article>
               <article class="article2 latest-article flex col">
                 <a href="#">
@@ -137,7 +137,7 @@
                     <figcaption>Here's why Alexa won't light up during Amazon's Super Bowl ad </figcaption>
                   </figure>
                 </a>
-                <p class="byline grey">Brad Stone - 4 hours ago</p>
+                <p class="byline grey latest-byline">Brad Stone - 4 hours ago</p>
               </article>
               <article class="article4 latest-article flex col">
                 <a href="#">
@@ -146,7 +146,7 @@
                     <figcaption>TNW's Big Spam: Here’s a picture of Matthew McConaughey eating lobster on a hoverboard </figcaption>
                   </figure>
                 </a>
-                <p class="byline grey">Georgina Ustik - 6 hours ago</p>
+                <p class="byline grey latest-byline">Georgina Ustik - 6 hours ago</p>
               </article>
               <article class="article5 latest-article flex col">
                 <a href="#">
@@ -155,7 +155,7 @@
                     <figcaption>Free rides are the future of public transport, according to this German startup </figcaption>
                   </figure>
                 </a>
-                <p class="byline grey">Guðrun í Jákupsstovu -6 hours ago</p>
+                <p class="byline grey latest-byline">Guðrun í Jákupsstovu -6 hours ago</p>
               </article>
               <article class="article6 latest-article flex col">
                 <a href="#">
@@ -164,7 +164,7 @@
                     <figcaption>Get a boatload of awesome licensed design assets for life for under $20 </figcaption>
                   </figure>
                 </a>
-                <p class="byline grey">TNW Deals - 7 hours ago</p>
+                <p class="byline grey latest-byline">TNW Deals - 7 hours ago</p>
               </article>
               <article class="article7 latest-article flex col">
                 <a href="#">
@@ -173,7 +173,7 @@
                     <figcaption>Cynicism and trolling have ruined an experiment in digital democracy </figcaption>
                   </figure>
                 </a>
-                <p class="byline grey">Matthew Hughes - 11 hours ago</p>
+                <p class="byline grey latest-byline">Matthew Hughes - 11 hours ago</p>
               </article>
               <article class="article8 latest-article flex col">
                 <a href="#">
@@ -182,7 +182,7 @@
                     <figcaption>Always busy running your own business? Then you're doing it wrong </figcaption>
                   </figure>
                 </a>
-                <p class="byline grey">Lucas Miller - 11 hours ago</p>
+                <p class="byline grey latest-byline">Lucas Miller - 11 hours ago</p>
               </article>
             </articles>
           </section>
@@ -272,7 +272,7 @@
             </ul>
           </section>
           <section class="copyright flex">
-            <p><span class="white">TNW</span> © 2006–2018 The Next Web B.V. Made with ♥ in Amsterdam. Powered by <span class="white">MaxCDN</span></p>
+            <p><span><span class="white">TNW</span> © 2006–2018 The Next Web B.V.</span><span> Made with ♥ in Amsterdam.</span><span>Powered by <span class="white">MaxCDN</span></span></p>
           </section>
         </footer>
 
